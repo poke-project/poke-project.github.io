@@ -1,6 +1,9 @@
 .cmn-t-underline {
   position: relative;
   color: #fff;
+  width: 42%;
+  padding:auto;
+  /*margin:auto;*/
 }
 .cmn-t-underline:after {
   display: block;
@@ -11,7 +14,7 @@
   height: 3px;
   background-color: #fff;
   content: "";
-  transition: width 0.8s;
+  transition: width 0.6s;
 }
 .cmn-t-underline:hover {
   color: #fff;

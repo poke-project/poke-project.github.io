@@ -54,10 +54,8 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(20deg, #155, #159957); }
+  height: 25vh;};
 
 @media screen and (min-width: 64em) {
   .page-header {
