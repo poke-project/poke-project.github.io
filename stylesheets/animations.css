@@ -1,0 +1,22 @@
+.cmn-t-underline {
+  position: relative;
+  color: #fff;
+}
+.cmn-t-underline:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+  transition: width 0.8s;
+}
+.cmn-t-underline:hover {
+  color: #fff;
+  font-weight: 900;
+}
+.cmn-t-underline:hover:after {
+  width: 100%;
+}
