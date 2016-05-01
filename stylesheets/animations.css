@@ -14,7 +14,7 @@
   height: 3px;
   background-color: #fff;
   content: "";
-  transition: width 0.6s;
+  transition: width 0.3s;
 }
 .cmn-t-underline:hover {
   color: #fff;
